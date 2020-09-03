@@ -187,18 +187,20 @@ iframe {
 .hero-unit {
 	background: 0 0;
 	text-align: center;
-	padding-top: 300px;
+	padding-top: 187px;
 	padding-bottom: 0
 }
 
 .hero-unit h1 {
 	padding-bottom: 15px;
+	line-height: normal;
 	font-size: 90px;
 	text-shadow: 0 0 10px rgba(0, 0, 0, .5)
 }
 
 .hero-unit h3 {
 	font-weight: 400;
+	line-height: normal;
 	padding-bottom: 15px;
 	font-size: 40px
 }

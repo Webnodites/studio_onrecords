@@ -87,21 +87,11 @@ textarea {
   overflow:auto;
   vertical-align:top;
 }
-* {
-  background:0 0 !important;
-  box-shadow:none !important;
-  color:#000000 !important;
-  text-shadow:none !important;
-}
+
 a, a:visited {
   text-decoration:underline;
 }
-a[href]::after {
-  content:" (" attr(href) ")";
-}
-abbr[title]::after {
-  content:" (" attr(title) ")";
-}
+
 .ir a::after, a[href^="javascript:"]::after, a[href^="#"]::after {
   content:"";
 }
@@ -169,9 +159,7 @@ a:hover, a:focus {
   margin-left:20px;
   min-height:1px;
 }
-.container, .navbar-static-top .container, .navbar-fixed-top .container, .navbar-fixed-bottom .container {
-  width:940px;
-}
+
 .span12 {
   width:940px;
 }
@@ -383,30 +371,8 @@ a:hover, a:focus {
 [class*="span"].pull-right, .row-fluid [class*="span"].pull-right {
   float:right;
 }
-.container {
-  margin-left:auto;
-  margin-right:auto;
-}
-.container::before, .container::after {
-  content:"";
-  display:table;
-  line-height:0;
-}
-.container::after {
-  clear:both;
-}
-.container-fluid {
-  padding-left:20px;
-  padding-right:20px;
-}
-.container-fluid::before, .container-fluid::after {
-  content:"";
-  display:table;
-  line-height:0;
-}
-.container-fluid::after {
-  clear:both;
-}
+
+
 p {
   margin:0 0 10px;
 }
@@ -2686,10 +2652,10 @@ button.btn.btn-mini, input[type="submit"].btn.btn-mini {
   overflow:visible;
 }
 .navbar-inner {
-  background-color:#FAFAFA;
-  background-image:linear-gradient(#FFFFFF, #F2F2F2);
+  background-color:black;
   background-repeat:repeat-x;
   border:1px solid #D4D4D4;
+  color: white;
   border-radius:4px;
   box-shadow:rgba(0, 0, 0, 0.067) 0 1px 4px;
   min-height:40px;
@@ -2704,9 +2670,7 @@ button.btn.btn-mini, input[type="submit"].btn.btn-mini {
 .navbar-inner::after {
   clear:both;
 }
-.navbar .container {
-  width:auto;
-}
+
 .nav-collapse.collapse {
   height:auto;
   overflow:visible;
@@ -2815,9 +2779,7 @@ button.btn.btn-mini, input[type="submit"].btn.btn-mini {
   padding-left:0;
   padding-right:0;
 }
-.navbar-static-top .container, .navbar-fixed-top .container, .navbar-fixed-bottom .container {
-  width:940px;
-}
+
 .navbar-fixed-top {
   top:0;
 }
@@ -3788,26 +3750,7 @@ a.label:hover, a.label:focus, a.badge:hover, a.badge:focus {
 .carousel-caption p {
   margin-bottom:0;
 }
-.hero-unit {
-  background-color:#EEEEEE;
-  border-radius:6px;
-  color:inherit;
-  font-size:18px;
-  font-weight:200;
-  line-height:30px;
-  margin-bottom:30px;
-  padding:60px;
-}
-.hero-unit h1 {
-  color:inherit;
-  font-size:60px;
-  letter-spacing:-1px;
-  line-height:1;
-  margin-bottom:0;
-}
-.hero-unit li {
-  line-height:30px;
-}
+
 .pull-right {
   float:right;
 }

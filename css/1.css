@@ -2802,6 +2802,7 @@ button.btn.btn-mini, input[type="submit"].btn.btn-mini {
 .navbar .nav.pull-right {
   float:right;
   margin-right:0;
+  margin-top:10px;
 }
 .navbar .nav > li {
   float:left;
@@ -2812,6 +2813,7 @@ button.btn.btn-mini, input[type="submit"].btn.btn-mini {
   padding:10px 15px;
   text-decoration:none;
   text-shadow:#FFFFFF 0 1px 0;
+  font-size:17px;
 }
 .navbar .nav .dropdown-toggle .caret {
   margin-top:8px;

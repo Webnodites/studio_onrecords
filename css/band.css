@@ -711,6 +711,7 @@ iframe {
 	display: none
 }
 
+
 .moreevents .EventsList:last-child {
 	margin-bottom: 0
 }
@@ -768,4 +769,27 @@ iframe {
 ul {
 	margin: 0;
 	padding: 0
+}
+.aboutmore{
+	display: none;
+}
+.readabout{
+	text-align: center;
+    padding: 20px; 
+}
+.readmore{
+       font-size: 20px;
+    border-radius: 25px;
+    border: 1px solid #f84d26;
+    padding: 5px 10px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.readmore:hover{
+  text-decoration: none;
+  color: white;
+  border: 1px solid white;
+}
+.readmore:focus{
+	text-decoration: none; 
 }

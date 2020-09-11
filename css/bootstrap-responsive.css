@@ -797,7 +797,15 @@
 	}
 }
 
+
 @media(max-width:767px) {
+	.about2 {
+    padding: 20px;
+    margin-top: -20px;
+    margin-right: -20px;
+    margin-left: -20px;
+    height: auto;
+}
 	body {
 		padding-right: 20px;
 		padding-left: 20px
@@ -1114,7 +1122,6 @@
 }
 @media (min-width: 768px) {
   .container {
-    width: 750px;
   }
 }
 @media (min-width: 992px) {

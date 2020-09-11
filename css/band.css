@@ -383,7 +383,7 @@ iframe {
 	box-sizing: border-box
 }
 
-.MediaThumb p {
+.MediaThumb h4 {
 	text-transform: uppercase;
 	text-align: center;
 	padding: 5px 0;
@@ -391,12 +391,18 @@ iframe {
 	border: solid 5px transparent;
 	color: #a0a0a0
 }
+.MediaThumb p {
+	text-align: center;
+	padding: 5px 0;
+	background: 0 0;
+	color: white
+}
 
 .MediaThumb div:hover img {
 	border: solid 5px #fff
 }
 
-.MediaThumb div:hover p {
+.MediaThumb div:hover h4 {
 	background: #fff;
 	border: solid 5px #fff;
 	color: #333
@@ -797,7 +803,7 @@ ul {
     background: url(../images/fnd.jpg) #000 center center;
     overflow: hidden;
     background-attachment: fixed;
-    padding: 100px 0;
+    padding: 100px 15px;
     background-position: 50% 0;
     background-size: cover;
     -ms-background-position-x: center!important;
@@ -823,5 +829,14 @@ ul {
 @media (max-width: 767px){
 	.col-12{
      width: 100%;
+}
+.about2 .row{
+	display: block;
+	}
+	.lead,.about2 li {
+    font-size: 16px;
+}
+.about2 li {
+	margin: 0;
 }
 }

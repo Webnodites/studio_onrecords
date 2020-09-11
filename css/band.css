@@ -187,7 +187,7 @@ iframe {
 .hero-unit {
 	background: 0 0;
 	text-align: center;
-	padding-top: 187px;
+	padding-top: 100px;
 	padding-bottom: 0
 }
 
@@ -417,10 +417,9 @@ iframe {
 
 .footer {
 	color: #fff;
-	background: url(../images/footer_img.jpg) no-repeat #000 center center;
+	background: url(../images/ft2.jpg) no-repeat #000 center center;
 	overflow: hidden;
 	background-attachment: fixed;
-	background-position: 50% 0;
 	background-size: cover;
 	padding-bottom: 50px;
 	-ms-background-position-x: center!important
@@ -777,7 +776,7 @@ ul {
 	text-align: center;
     padding: 20px; 
 }
-.readmore{
+.btnrd{
        font-size: 20px;
     border-radius: 25px;
     border: 1px solid #f84d26;
@@ -785,11 +784,44 @@ ul {
     text-decoration: none;
     cursor: pointer;
 }
-.readmore:hover{
+.btnrd:hover{
   text-decoration: none;
   color: white;
   border: 1px solid white;
 }
-.readmore:focus{
+.btnrd:focus{
 	text-decoration: none; 
+}
+.about2 {
+    color: #fff;
+    background: url(../images/fnd.jpg) #000 center center;
+    overflow: hidden;
+    background-attachment: fixed;
+    padding: 100px 0;
+    background-position: 50% 0;
+    background-size: cover;
+    -ms-background-position-x: center!important;
+}
+.about2 .row{
+	display: flex;
+	padding: 50px 0;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+}
+.about2 li{
+	    font-size: 21px;
+    font-weight: 200;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+@media (min-width: 768px){
+.col-md-4{
+	width: 33.33%;
+}
+}
+@media (max-width: 767px){
+	.col-12{
+     width: 100%;
+}
 }

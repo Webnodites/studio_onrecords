@@ -58,6 +58,11 @@ iframe {
 	text-shadow: none
 }
 
+@media (max-width: 767px){
+	.navbar .nav>li>a {
+		font-size: 14px;
+	}
+}
 .navbar .nav>li>a:focus,
 .navbar .nav>li>a:hover {
 	color: #ccc
@@ -585,10 +590,10 @@ iframe {
 
 @media(max-width:979px) {
 	.hero-unit {
-		padding-top: 250px
+		padding-top: 165px;
 	}
 	.hero-unit h1 {
-		font-size: 60px
+		   font-size: 50px;
 	}
 	.hero-unit h3 {
 		font-size: 18px;
@@ -619,22 +624,24 @@ iframe {
 	}
 	.slide2,
 	.slide3 {
-		padding-top: 75px
+		padding-top: 165px
 	}
 	.slide3 h1 {
 		font-size: 25px
 	}
 	.slide3 h3,
 	.slide2 h3 {
-		font-size: 18px;
-		line-height: 25px;
-		padding-top: 5px;
-		padding-bottom: 5px;
-		font-weight: 400
+	font-size: 22px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: 400;
 	}
 }
 
 @media(max-width:767px) {
+.slide2, .slide3 {
+    padding-top: 100px;
+}
 	.jumbotron,
 	.about,
 	.ourmedia {
@@ -651,7 +658,7 @@ iframe {
 	.PageHead h3,
 	.FeatLayout h3 {
 		font-size: 20px;
-		line-height: 25px;
+		line-height: 30px;
 		padding-top: 5px;
 		padding-bottom: 5px
 	}
@@ -691,29 +698,44 @@ iframe {
 }
 
 @media(max-width:480px) {
+	.footer p{
+	 font-size: 12px;
+	}
+	.MediaThumb p {
+    font-size: 10px;
+    line-height: 15px;
+	}
+	.hero-unit img{
+		width: 235px;
+	}
 	.hero-unit h1 {
-		font-size: 20px
+		font-size: 20px;
 	}
 	.slide2 iframe {
 		width: 100%;
-		height: 200px
+		height: 235px;
 	}
 	.mediavideo iframe {
-		height: 200px
+		height: 200px;
 	}
 	.flex-direction-nav {
-		display: none
+		display: none;
 	}
 	.hero-unit {
-		padding-top: 190px
+		padding: 0;
+    padding-top: 100px;
+
 	}
 	.hero-unit h1 {
-		font-size: 22px
+		font-size: 25px;
+	}
+	.fancy span:before, .fancy span:after {
+    width: 50px;
 	}
 }
 
 .moreevents {
-	display: none
+	display: none;
 }
 
 

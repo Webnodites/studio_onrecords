@@ -19,7 +19,7 @@
         <link href="css/band.css" rel="stylesheet" >
         <script src="js/jquery-1.9.0.min.js"></script>
         <script src="js/jquery.flexslider.js"></script>
-
+       
         <script type="text/javascript">
 
           $(window).load(function() {
@@ -54,6 +54,7 @@
 		</script>
 
         <script src="js/contact_form.js"></script>
+         <script src="js/video.js"></script>
     </head>
 
     <body>
@@ -69,10 +70,11 @@
 
                             <ul class="nav pull-right">
                                 <li class="active"><a href="#home">HOME</a></li>
-                                <li><a href="#events">EVENTS</a></li>
+                                
                                 <li><a href="#about">ABOUT</a></li>
                                 <li><a href="#gallery">GALLERY</a></li>
                                 <li><a href="#media">MEDIA</a></li>
+                                <li><a href="#events">EVENTS</a></li>
                                 <li><a href="#contact">CONTACT</a></li>
                             </ul>
                         </div>
@@ -92,7 +94,7 @@
                         <li>
                             <div class="slide2">
                                 <p>
-                                    <iframe width="640" height="360" src="https://www.youtube.com/embed/76-rWmp7B94" allowfullscreen></iframe>
+                                    <iframe id="player" width="640" height="360" src="https://www.youtube.com/embed/76-rWmp7B94?enablejsapi=1" allowfullscreen></iframe>
                                 </p>
                                     <h3>YOUTUBE VIDEO WITH CAPTION</h3>
                             </div>
@@ -180,26 +182,26 @@
             </div>
             <div class="row-fluid">
                 <div class="span12 text-center mediavideo">
-                    <iframe width="640" height="360" src="https://www.youtube.com/embed/76-rWmp7B94" allowfullscreen></iframe>
+                    <iframe id="player1" width="640" height="360" src="https://www.youtube.com/embed/76-rWmp7B94?enablejsapi=1" allowfullscreen></iframe>
                 </div>
             </div>
             <div class="row-fluid MediaThumb">
-                <div class="span3 playvideo" data-url="https://www.youtube.com/embed/76-rWmp7B94"> <img src="images/gallery/thumb/thumb9.jpg" alt="media">
+                <div class="span3 playvideo" data-url="https://www.youtube.com/embed/76-rWmp7B94?enablejsapi=1"> <img src="images/gallery/thumb/thumb9.jpg" alt="media">
                 <h4>DHO DHO KE</h4>
                     <p>Amit composed a song for ICC World Cup, 2011 named ‘DHO DHO KE’ to inspire the Indian Cricket world. With this song, Studio Onrecords paid a tribute to the Indian cricket team and wished it best of luck for the World cup. The song found its place on Star news, Star Cricket, NDTV, ETV, Sahara Samay, ANI, TV24 etc.</p>
                 </div>
 
-                <div class="span3 playvideo" data-url="https://www.youtube.com/embed/JUYezOtO8wA"> <img src="images/gallery/thumb/thumb9.jpg" alt="media">
+                <div class="span3 playvideo" data-url="https://www.youtube.com/embed/JUYezOtO8wA?enablejsapi=1"> <img src="images/gallery/thumb/thumb9.jpg" alt="media">
                 <h4>JAI BHARAT</h4>
                 <p>An inspiring song composed was a patriotic song named ‘JAI BHARAT’ appealing to the public to lend their hands towards anti terrorist drives and maintaining world peace. This song was dedicated to India and to the martyrs who laid down their lives while safeguarding the borders of our country. The song also primarily focused on the youth with very catchy lyrics that infused nationalistic feeling and created awareness about social evils. </p>
                 </div>
 
-                <div class="span3 playvideo" data-url="https://www.youtube.com/embed/JUYezOtO8wA"> <img src="images/gallery/thumb/thumb9.jpg" alt="media">
+                <div class="span3 playvideo" data-url="https://www.youtube.com/embed/JUYezOtO8wA?enablejsapi=1"> <img src="images/gallery/thumb/thumb9.jpg" alt="media">
                 <h4>Teri Aan Ki Khatir</h4>
                 <p>A patriotic song named ‘Teri Aan Ki Khatir’ was composed as a tribute to all our martyrs. </p>
                 </div>
 
-                <div class="span3 playvideo" data-url="https://www.youtube.com/embed/JUYezOtO8wA"> <img src="images/gallery/thumb/thumb9.jpg" alt="media">
+                <div class="span3 playvideo" data-url="https://www.youtube.com/embed/JUYezOtO8wA?enablejsapi=1"> <img src="images/gallery/thumb/thumb9.jpg" alt="media">
                 <p>JAI BHARAT</p>
                 </div>
             </div>
@@ -389,16 +391,18 @@
         </div>
         <div class="row-fluid">
             <div class="span12 socialButtons">
+                <a href="http://web3canvas.com/" target="_blank">
+                    <img src="images/linkedin_icon.png" alt="linkedin">
+                </a> 
+                <a href="https://facebook.com/web3canvas" target="_blank">
+                    <img src="images/facebook_icon.png" alt="facebook">
+                </a> 
                 <a href="https://twitter.com/surjithctly" target="_blank"> 
                     <img src="images/twitter_icon.png" alt="twi
                     tter">
                 </a>
-                <a href="https://facebook.com/web3canvas" target="_blank">
-                    <img src="images/facebook_icon.png" alt="facebook">
-                </a> 
-                <a href="http://web3canvas.com/" target="_blank">
-                    <img src="images/linkedin_icon.png" alt="linkedin">
-                </a> 
+                
+                
             </div>
         </div>
         <p class="text-center">Copyright &copy; 2020. STUDIO ONRECORDS | Managed By <a href="http://www.tesventures.in/"> TES Ventures </a>| Designed &amp; Developed By <a href="https://webnodites.com"> Webnodites</a></p>

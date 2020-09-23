@@ -1,6 +1,6 @@
 @charset "utf-8";
 body {
-	font-family: pt sans, Arial, Helvetica, sans-serif;
+	font-family: Georgia;
 	background: #fff
 }
 
@@ -194,7 +194,7 @@ iframe {
 .hero-unit h1 {
 	padding-bottom: 15px;
 	line-height: normal;
-	font-size: 90px;
+	font-size: 80px;
 	text-shadow: 0 0 10px rgba(0, 0, 0, .5)
 }
 
@@ -839,4 +839,11 @@ ul {
 .about2 li {
 	margin: 0;
 }
+}
+.contact-info a{
+	padding-left: 8px;
+	text-decoration: none;
+}
+.contact-info a:hover{
+	text-decoration: none;
 }

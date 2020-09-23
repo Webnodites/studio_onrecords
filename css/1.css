@@ -118,7 +118,6 @@ h2, h3 {
 body {
   background-color:#FFFFFF;
   color:#333333;
-  font-family:"helvetica neue", Helvetica, Arial, sans-serif;
   font-size:14px;
   line-height:20px;
   margin:0;
@@ -609,7 +608,6 @@ address {
 code, pre {
   border-radius:3px;
   color:#333333;
-  font-family:Monaco, Menlo, Consolas, "courier new", monospace;
   font-size:12px;
   padding:0 3px 2px;
 }
@@ -684,7 +682,6 @@ label, input, button, select, textarea {
   line-height:20px;
 }
 input, button, select, textarea {
-  font-family:"helvetica neue", Helvetica, Arial, sans-serif;
 }
 label {
   display:block;
@@ -2682,7 +2679,8 @@ button.btn.btn-mini, input[type="submit"].btn.btn-mini {
   font-size:20px;
   font-weight:200;
   margin-left:-20px;
-  padding:10px 20px;
+  padding: 0px 20px;
+  padding-bottom: 4px;
   text-shadow:#FFFFFF 0 1px 0;
 }
 .navbar .brand:hover, .navbar .brand:focus {
@@ -2747,7 +2745,6 @@ button.btn.btn-mini, input[type="submit"].btn.btn-mini {
 }
 .navbar-search .search-query {
   border-radius:15px;
-  font-family:"helvetica neue", Helvetica, Arial, sans-serif;
   font-size:13px;
   font-weight:400;
   line-height:1;

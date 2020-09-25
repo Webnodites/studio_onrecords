@@ -869,3 +869,9 @@ ul {
 .contact-info a:hover{
 	text-decoration: none;
 }
+
+.text-center .sldr
+{
+	height: 350px;
+	width: 500px;
+}

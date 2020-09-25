@@ -875,3 +875,9 @@ ul {
 	height: 350px;
 	width: 500px;
 }
+@media(max-width: 991px){
+	.text-center .sldr
+	{
+		height: 235px;
+	}
+}

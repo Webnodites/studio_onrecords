@@ -695,6 +695,7 @@ iframe {
 		margin-right: -20px;
 		margin-left: -20px
 	}
+
 }
 
 @media(max-width:480px) {
@@ -802,7 +803,13 @@ ul {
 }
 .readabout{
 	text-align: center;
-    padding: 20px; 
+	padding: 20px; 
+	margin-top: 5%;
+}
+.readabout2{
+	text-align: center;
+	padding: 20px; 
+	
 }
 .btnrd{
        font-size: 20px;

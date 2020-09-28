@@ -881,3 +881,81 @@ ul {
 		height: 235px;
 	}
 }
+
+.team {
+    color: #fff;
+    background: url(../images/media_img.jpg) #000 center center;
+    overflow: hidden;
+    background-attachment: fixed;
+    background-position: 50% 0;
+    background-size: cover;
+    -ms-background-position-x: center!important;
+}
+@media (max-width: 767px){
+.team {
+    padding: 20px;
+    margin-top: -20px;
+    margin-right: -20px;
+    margin-left: -20px;
+    height: auto;
+}
+}
+.team .rw2{
+	display: flex;
+	margin: 0;
+	text-align: center;
+}
+ .team .colimg-md-1,
+  .team .colimg-sm-1,
+  .team .colimg-lg-1  {
+    padding: 15px 10px;
+  }
+@media (max-width: 420px){
+	.team .hidesm{
+		display: none;
+	}
+}
+@media (min-width: 320px){
+	.team .rw2{
+	    display: block;
+	}
+  .team .colimg-md-1,
+  .team .colimg-sm-1,
+  .team .colimg-lg-1  {
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px){
+	.team .rw2{
+		display: flex;
+	}
+  .team .colimg-md-1,
+  .team .colimg-sm-1,
+  .team .colimg-lg-1  {
+    width: 100%;
+  }
+}
+
+@media (min-width: 992px) {
+	.team .rw2{
+		display: flex;
+	}
+  .team .colimg-md-1,
+  .team .colimg-sm-1,
+  .team .colimg-lg-1 {
+    width: 14.285714285714285714285714285714%;
+  }
+}
+
+/**
+ *  The following is not really needed in this case
+ *  Only to demonstrate the usage of @media for large screens
+ */    
+@media (min-width: 1200px) {
+  .team .colimg-md-1,
+  .team .colimg-sm-1,
+  .team .colimg-lg-1 {
+    width: 14.285714285714285714285714285714%;
+  }
+}

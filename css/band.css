@@ -808,7 +808,6 @@ ul {
 .readabout2{
 	text-align: center;
 	padding: 20px; 
-	
 }
 .btnrd{
        font-size: 20px;
@@ -818,6 +817,8 @@ ul {
     text-decoration: none;
     cursor: pointer;
 }
+
+
 .btnrd:hover{
   text-decoration: none;
   color: white;
@@ -964,4 +965,15 @@ ul {
   .team .colimg-lg-1 {
     width: 16.666666%;
   }
+}
+
+
+.btnrd .view{
+	font-size: 20px;
+ border-radius: 25px;
+ border: 1px solid #f84d26;
+ padding: 5px 10px;
+ text-decoration: none;
+ cursor: pointer;
+
 }

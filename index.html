@@ -238,7 +238,7 @@
                 </div>
             </div>
             <div class="readabout">
-                <a class="btnrd" href="about.html"><span>Read More</span></a>
+                <a class="btnrd" href="about"><span>Read More</span></a>
             </div>
             <div class="row-fluid PageHead inverse">
                 <div class="span12">
@@ -537,22 +537,22 @@
             </div>
             <div class="row-fluid ContactUs">
                 <div class="span6">
-                    <form class="form-horizontal" id="phpcontactform">
+                    <form class="form-horizontal" action="contactmail" method="post">
                         <div class="control-group">
-                            <input class="input-block-level only-alpha" type="text" placeholder="Full Name" name="name" id="name">
+                            <input class="input-block-level only-alpha" type="text" placeholder="Full Name" name="name" id="name" required>
                         </div>
                         <div class="control-group">
-                            <input class="input-block-level" type="email" placeholder="Email ID" name="email" id="email">
+                            <input class="input-block-level" type="email" placeholder="Email ID" name="email" id="email" required>
                         </div>
                         <div class="control-group">
-                            <input class="input-block-level only-numeric" type="text" placeholder="Mobile Number" name="mobile" id="mobile">
+                            <input class="input-block-level only-numeric" type="text" placeholder="Mobile Number" name="mobile" id="mobile" required>
                         </div>
                         <div class="control-group">
-                            <textarea class="input-block-level" rows="10" name="message" placeholder="Your Message" id="message"></textarea>
+                            <textarea class="input-block-level" rows="10" name="message" placeholder="Your Message" id="message" required></textarea>
                         </div>
                         <div class="control-group">
                             <p>
-                                <input class="btn btn-danger btn-large" type="submit" value="Send Message">
+                                <input class="btn btn-danger btn-large" type="submit" name="submitbtn" value="Send Message">
                             </p>
                             <span class="loading"></span> 
                         </div>

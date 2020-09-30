@@ -1,12 +1,37 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<link href="https://fonts.googleapis.com/css?family=PT%20Sans:400,700" rel="stylesheet" type="text/css">
 	<title></title>
-	<link rel="stylesheet" href="sweetalert2.min.css">
+	 <style>
+	    .swal-overlay--show-modal .swal-modal {
+    		font-family: georgia;
+		}
+        .swal-text {
+            font-size: 18px;
+            text-align:center;
+        }
+        .swal-title {
+            color: #000c2d;
+            font-size:28px;
+        }
+        .swal-button {
+            background-color: #e03114;
+            font-size:16px;
+        }
+        .swal-button:hover {
+            background-color: #e03114;
+        }
+        .swal-button:focus {
+            background-color: #e03114;
+        }
+        .swal-button:not([disabled]):hover {
+            background-color: #e03114;
+        }
+    </style>
 </head>
 <body>
-	<script src='https://unpkg.com/sweetalert/dist/sweetalert.min.js'></script>   
-     <script src="sweetalert2.min.js"></script>
+	<script src='https://unpkg.com/sweetalert/dist/sweetalert.min.js'></script>  
 </body>
 </html>
 <?php
@@ -29,7 +54,6 @@ if(isset($_POST["submitbtn"]))
 	$message .= "Mobile No. :".$phone."\n";
 	$message .= "Message :".$msg."\n";
      
-     echo $message;
 	$sendmail = mail($to,$sub,$message,$header);
 	if($sendmail){
 		echo "<script>swal({
@@ -38,7 +62,7 @@ if(isset($_POST["submitbtn"]))
 				  icon: 'success',
 				  button: 'Ok!',
 				}).then(function(){
-			         window.location.href='index.html';
+			         window.location.href='index';
 			         });
 			   </script>";
 	}
@@ -51,7 +75,7 @@ if(isset($_POST["submitbtn"]))
 				  icon: 'error',
 				  button: 'Ok!',
 				}).then(function(){
-			         window.location.href='index.html';
+			         window.location.href='index';
 			         });  
 			</script>";
 
